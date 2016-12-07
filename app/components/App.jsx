@@ -17,7 +17,8 @@ const App = ({LaneActions, lanes}) => {
 
   return (
     <div>
-      <button className="add-lane" onClick={addLane}>+</button>
+      <h1> Kanban App </h1>
+      <button className="add-lane" onClick={addLane}>Add Lane</button>
       <Lanes lanes={lanes} />
     </div>
   );
